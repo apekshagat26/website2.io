@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Project</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="text-warning">Ape</span>Xaa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assests/images/william-thomas-ny6tO4ItOEY-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assests/images/erik-mclean-2Wv9VnwzeeI-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assests/images/jamie-street-qWYvQMIJyfE-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+      <!--- about section -->
+
+      <section id="about" class="about-section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-12 col-12">
+              <div class="about-img">
+                <img src="./assests/images/gidon-wessner-SZtLK_W7vKo-unsplash.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <div class="about-text">
+                <h2>We Provide best Quality <br> Services Ever</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nam labore vel exercitationem,
+                  tempora nobis, explicabo, temporibus corporis dolores eos officiis harum numquam repellendus cum error
+                  quod dignissimos! Magni omnis veritatis tenetur alias corporis nostrum perferendis dicta adipisci
+                  fugit pariatur porro dignissimos debitis, voluptates ducimus rem aspernatur esse placeat earum.</p>
+                <a href="#" class="btn btn-warning">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--- services section --->
+
+      <section id="services" class="services section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Asperiores, eveniet.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-subtract"></i>
+                  <h3 class="card-title">Fine-art Photography</h3>
+                  <p class="lead">Fine art photography is about using your camera as a paintbrush. An artistic approach
+                    makes fine art photography distinct from other photography types. Learn what fine art photography is
+                    and how to do it – with expert input from professional art photographers and academics.
+
+                  </p>
+                  <button class="btn btn-warning text-dark">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-slack"></i>
+                  <h3 class="card-title">Digital Photography</h3>
+                  <p class="lead">Digital photography uses cameras containing arrays of electronic photodetectors
+                    interfaced to an analog-to-digital converter (ADC) to produce images focused by a lens, as opposed
+                    to an exposure on photographic film.The digitized image is stored as a computer file.</p>
+                  <button class="btn btn-warning text-dark">Read More</button>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-playstation"></i>
+                  <h3 class="card-title">Portrait Photography</h3>
+                  <p class="lead">Portrait photography is about capturing the essence, personality, identity and
+                    attitude of a person utilizing backgrounds, lighting and posing. While this definition may sound
+                    simple, portrait photographycan be one of the most challenging forms of photography to master.</p>
+                  <button class="btn btn-warning text-dark">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio section -->
+
+      <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Our Projects</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Asperiores, eveniet.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="./assests/images/pexels-photo-2869318.webp" alt="" class="img-fluid">
+                  <h3 class="card-title">Toddler in Yellow Top and Hat Holding Fruit</h3>
+                  <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores esse incidunt
+                    facere corporis temporibus cum. Sit quod natus in at?</p>
+                  <button class="btn bg-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="./assests/images/pexels-photo-2585618.webp" alt="" class="img-fluid">
+                  <h3 class="card-title">Photo of Person Holding A Lantern</h3>
+                  <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores esse incidunt
+                    facere corporis temporibus cum. Sit quod natus in at?</p>
+                  <button class="btn bg-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="./assests/images/pexels-photo-1079791.jpeg" alt="" class="img-fluid">
+                  <h3 class="card-title">Photography of a Woman Near Leaves</h3>
+                  <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores esse incidunt
+                    facere corporis temporibus cum. Sit quod natus in at?</p>
+                  <button class="btn bg-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+      </section>
+
+      <!-- team section -->
+
+      <section id="team" class="team section-padding">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Our Projects</h2>
+              <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Quibusdam, mollitia!</p>
+            </div>
+          </div>
+        </div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img src="./assests/images/OIP (5).jpg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-2">Henri Cartier-Bresson</h3>
+                    <p class="card-text">Henri Cartier-Bresson was a French humanist photographer considered a master of
+                      candid photography,Lorem ipsum dolor sit amet Lorem, ipsum dolor.. and an early user of 35mm film.</p>
+
+                    <p class="socials">
+                      <i class="bi bi-twitter text-dark mx-1"></i>
+                      <i class="bi bi-facebook text-dark mx-1"></i>
+                      <i class="bi bi-linkedin text-dark mx-1"></i>
+                      <i class="bi bi-instagram text-dark mx-1"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img src="./assests/images/OIP (6).jpg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-2">Annie Leibovitz</h3>
+                    <p class="card-text">Anna-Lou Leibovitz is an American portrait photographer best known for her
+                      engaging portraits, particularly Lorem, ipsum dolor. of celebrities, which often feature subjects in intimate portrait.</p>
+
+                    <p class="socials">
+                      <i class="bi bi-twitter text-dark mx-1"></i>
+                      <i class="bi bi-facebook text-dark mx-1"></i>
+                      <i class="bi bi-linkedin text-dark mx-1"></i>
+                      <i class="bi bi-instagram text-dark mx-1"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img src="./assests/images/download (1).jpg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-2">Ansel Adams</h3>
+                    <p class="card-text">Ansel Easton Adams (February 20, 1902 – April 22, 1984) was an American
+                      landscape photographer and environmentalist known for his black-and-white images off.</p>
+
+                    <p class="socials">
+                      <i class="bi bi-twitter text-dark mx-1"></i>
+                      <i class="bi bi-facebook text-dark mx-1"></i>
+                      <i class="bi bi-linkedin text-dark mx-1"></i>
+                      <i class="bi bi-instagram text-dark mx-1"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img src="./assests/images/OIP (1).jpg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-2">Steve McCurry</h3>
+                    <p class="card-text">Steve McCurry (born April 23, 1950) is an American photographer, freelancer, and photojournalist. His photo Afghan Girl, of a girl with.</p>
+
+                    <p class="socials">
+                      <i class="bi bi-twitter text-dark mx-1"></i>
+                      <i class="bi bi-facebook text-dark mx-1"></i>
+                      <i class="bi bi-linkedin text-dark mx-1"></i>
+                      <i class="bi bi-instagram text-dark mx-1"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!--- contact section --->
+
+      <section id="contact" class="contact" section-padding>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section.header text-center pd-5">
+                <h2>Contact Us</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Qui, eos.</p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row m-o">
+            <div class="col-md-12 p-0 pt-4 pb-4">
+              <form action="#" class="bg-light p-4.m-auto">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" required placeholder="Your Full name">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <input type="email" class="form-control" required placeholder="Your Email Here">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <textarea rows="3" required class="form-control" placeholder="Your Query Here"></textarea>
+                    </div>
+                  </div>
+
+                  <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--- footer --->
+
+      <footer class="bg-dark p-2 text-center">
+        <div class="container">
+          <p class="text-white">All Right Reserved @Website Apexaa</p>
+        </div>
+      </footer>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
